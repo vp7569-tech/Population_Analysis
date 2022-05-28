@@ -1,0 +1,92 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns 
+from sklearn import datasets
+
+
+# In[2]:
+
+
+cities=pd.read_csv("F:/cities_r2.csv")
+
+
+# In[3]:
+
+
+cities.head()
+
+
+# In[5]:
+
+
+plt.figure(figsize=(12,8))
+sns.heatmap(cities.corr(),annot=True)
+
+
+# In[6]:
+
+
+cities.corr()
+
+
+# In[8]:
+
+
+sns.set_style("darkgrid")
+sns.countplot(x='sex_ratio',hue='sex_ratio',data=cities)
+
+
+# In[10]:
+
+
+sns.set_style("darkgrid")
+sns.countplot(x='sex_ratio',hue='literates',data=cities)
+
+
+# # pre-processing
+
+# In[11]:
+
+
+cities.isnull().sum()
+
+
+# In[13]:
+
+
+plt.figure(figsize=(12,8))
+sns.heatmap(cities.isnull())
+
+
+# In[1]:
+
+
+plt.figure.fig(size=17,8)
+plt.figure.bokaro,fig(size=17,8)
+plt.figure
+
+
+# In[ ]:
+
+
+cities.isnull().sum(Bihar)
+cities.isnull().sum(Punjab)
+cities.isnull().sum(Jharkhand)
+{
+    cities.isnull().sum(Bokaro)
+    Bokaro(3594321).sum(Bokaro)
+}
+cities.is null().sum(west bengal)
+cities.is null().sum(jadavpur)
+{
+    cities.is null()sub(sex_ratio)
+    cities.is null()sub(literacy_rate)
+    
+}
+
